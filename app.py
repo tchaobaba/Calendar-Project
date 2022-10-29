@@ -12,13 +12,7 @@ def root():
     #return render_template('maintenance.html')
     return render_template('index.html')
 
-try:
-    "/*"
-    url = bad_url
-except FileNotFoundError:
-    print("404 ERROR")
-except Exception:
-    print('404 ERROR')
+
 """
 @app.route("/solution")
 def solution():
